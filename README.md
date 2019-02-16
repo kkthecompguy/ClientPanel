@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1.0.0
 
-##Author
+## Author
 
 Kkthecompguy
 
