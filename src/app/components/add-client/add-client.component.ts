@@ -21,7 +21,7 @@ export class AddClientComponent implements OnInit {
   }
   disableBalanceOnAdd: boolean;
   @ViewChild('clientForm') form: any
-
+ 
   constructor(
     private flashMessage: FlashMessagesService,
     private clienService: ClientService,

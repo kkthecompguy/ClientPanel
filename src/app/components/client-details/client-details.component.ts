@@ -14,7 +14,8 @@ export class ClientDetailsComponent implements OnInit {
   id: string;
   client: Client;
   hasBalance: boolean = false;
-  showBalanceUpdateInput: boolean = false
+  showBalanceUpdateInput: boolean = false;
+  disabledBalance: boolean = true;
 
   constructor(
     private clientService: ClientService,
